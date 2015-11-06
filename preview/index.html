@@ -17,15 +17,23 @@
 					<thead>
 						<tr>
 							<th>Name</th>
-							<th>Start date</th>
-							<th>End date</th>
+							<th>CFP link</th>
+							<th>CFP end</th>
+							<th>Conference start</th>
+							<th>Conference end</th>
+							<th>Location</th>
+							<th>Language</th>
 						</tr>
 					</thead>
 					<tbody data-bind="foreach: conferences().events">
 						<tr>
 							<td data-bind="text: name"></td>
-							<td data-bind="text: startDate"></td>
-							<td data-bind="text: endDate"></td>
+							<td data-bind="text: callForPapersEnd"></td>
+							<td><a data-bind="attr: { href: url}">CFP link</a></td>
+							<td><span data-bind="text: location"></span></td>
+							<td data-bind="text: conferenceStart"></td>
+							<td data-bind="text: conferenceEnd"></td>
+							<td data-bind="text: lang"></td>
 						</tr>
 					</tbody>
 				</table>
