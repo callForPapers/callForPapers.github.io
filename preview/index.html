@@ -1,0 +1,37 @@
+<html>
+
+<head>
+	<script type="text/javascript" data-main="init" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.20/require.min.js"></script>
+	<link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12"><h1 class="text-center">CallForPapers!</h1></div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<table class="table table-hover table-condensed">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Start date</th>
+							<th>End date</th>
+						</tr>
+					</thead>
+					<tbody data-bind="foreach: conferences().events">
+						<tr>
+							<td data-bind="text: name"></td>
+							<td data-bind="text: startDate"></td>
+							<td data-bind="text: endDate"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

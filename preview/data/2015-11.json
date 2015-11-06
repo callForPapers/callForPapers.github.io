@@ -1,0 +1,32 @@
+{
+	"events" : [
+		{
+			"name" : "BoilingFrogs",
+			"startDate" : "2016-01-16",
+			"endDate" : "2016-01-16",
+			"callForPapersStart" : "2015-10-01",
+			"callForPapersEnd" : "2015-11-11"
+		},
+		{
+			"name" : "4Developers",
+			"startDate" : "2016-01-16",
+			"endDate" : "2016-01-16",
+			"callForPapersStart" : "2015-10-01",
+			"callForPapersEnd" : "2015-11-11"
+		},
+		{
+			"name" : "4Developers",
+			"startDate" : "2016-01-16",
+			"endDate" : "2016-01-16",
+			"callForPapersStart" : "2015-10-01",
+			"callForPapersEnd" : "2015-11-11"
+		},
+		{
+			"name" : "4Developers",
+			"startDate" : "2016-01-16",
+			"endDate" : "2016-01-16",
+			"callForPapersStart" : "2015-10-01",
+			"callForPapersEnd" : "2015-11-11"
+		}
+	] 
+}
