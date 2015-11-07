@@ -7,7 +7,9 @@
 			"callForPapersEnd" : "2015-11-11",
 			"url": "http://4developers.org.pl/call-for-papers",
 			"lang": "pl",
-			"location": "Poland,Warsaw"
+			"location": "Poland,Warsaw",
+			"tags": "community, 4dev"
+
 		},
 		{
 			"name" : "BoilingFrogs",
@@ -16,7 +18,8 @@
 			"callForPapersEnd" : "2015-11-11",
 			"url": "http://boilingfrogs.pl/#c4p",
 			"lang": "pl",
-			"location": "Poland,Wrocław"
+			"location": "Poland,Wrocław",
+			"tags": "software craftsmanship, frogs"
  		}
 	] 
 }
