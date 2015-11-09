@@ -1,32 +1,25 @@
 {
 	"events" : [
 		{
+			"name" : "4Developers",
+			"conferenceStart" : "2016-01-16",
+			"conferenceEnd" : "2016-01-16",
+			"callForPapersEnd" : "2015-11-11",
+			"url": "http://4developers.org.pl/call-for-papers",
+			"lang": "pl",
+			"location": "Poland,Warsaw",
+			"tags": "community, 4dev"
+
+		},
+		{
 			"name" : "BoilingFrogs",
-			"startDate" : "2016-01-16",
-			"endDate" : "2016-01-16",
-			"callForPapersStart" : "2015-10-01",
-			"callForPapersEnd" : "2015-11-11"
-		},
-		{
-			"name" : "4Developers",
-			"startDate" : "2016-01-16",
-			"endDate" : "2016-01-16",
-			"callForPapersStart" : "2015-10-01",
-			"callForPapersEnd" : "2015-11-11"
-		},
-		{
-			"name" : "4Developers",
-			"startDate" : "2016-01-16",
-			"endDate" : "2016-01-16",
-			"callForPapersStart" : "2015-10-01",
-			"callForPapersEnd" : "2015-11-11"
-		},
-		{
-			"name" : "4Developers",
-			"startDate" : "2016-01-16",
-			"endDate" : "2016-01-16",
-			"callForPapersStart" : "2015-10-01",
-			"callForPapersEnd" : "2015-11-11"
-		}
+			"conferenceStart" : "2016-01-16",
+			"conferenceEnd" : "2016-01-16",
+			"callForPapersEnd" : "2015-11-11",
+			"url": "http://boilingfrogs.pl/#c4p",
+			"lang": "pl",
+			"location": "Poland,Wrocław",
+			"tags": "software craftsmanship, frogs"
+ 		}
 	] 
 }
