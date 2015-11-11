@@ -1,15 +1,12 @@
 require(['jquery', 'bootstrap-table', 'libs/domReady!'], function ($) {
-	var date = new Date();
-	var month = date.getMonth() + 1;
-	var year = date.getFullYear();
-	var jsonUrl = "./data/" + year + "-" + month + ".json";
+	var jsonUrl = "./data/cfp.json";
 	
 	$('#table').bootstrapTable({
 		url: jsonUrl,
 		responseHandler: handler,
 		pagination: true,
 		search: true,
-		pageSize: 5,
+		pageSize: 30,
 		rowStyle: rowFormatter,
 		sortName: 'callForPapersEnd',
 		sortOrder: 'asc',
