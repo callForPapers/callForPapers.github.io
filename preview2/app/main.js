@@ -39,7 +39,7 @@ require(['jquery', 'bootstrap-table', 'libs/domReady!'], function ($) {
 	}
 	
 	function linkFormatter(value, row) {
-        return '<a href=' + value + ' target="_blank">' + value + '</>';
+        return '<a href=' + value + ' target="_blank">CFP link</>';
     }
 	
 	function rowFormatter(row, index) {
