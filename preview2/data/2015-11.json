@@ -22,54 +22,26 @@
 			"tags": "software craftsmanship, frogs"
  		},
 		{
-			"name" : "BoilingFrogs",
-			"conferenceStart" : "2016-01-16",
-			"conferenceEnd" : "2016-01-16",
-			"callForPapersEnd" : "2015-11-13",
-			"url": "http://boilingfrogs.pl/#c4p",
-			"lang": "pl",
-			"location": "Poland,Wrocław",
-			"tags": "software craftsmanship, frogs"
+			"name" : "Lambda Days",
+			"conferenceStart" : "2016-02-18",
+			"conferenceEnd" : "2016-02-19",
+			"callForPapersEnd" : "2015-12-01",
+			"url": "https://docs.google.com/forms/d/19EW4BX7GqXRlt5K0kxXJCuSV_Us3LVCtxhel2qhZgOs/viewform",
+			"lang": "en",
+			"location": "Poland, Kraków",
+			"tags": "functional programming, reactive programming"
  		},
-		{
-			"name" : "BoilingFrogs",
-			"conferenceStart" : "2016-01-16",
-			"conferenceEnd" : "2016-01-16",
-			"callForPapersEnd" : "2015-11-15",
-			"url": "http://boilingfrogs.pl/#c4p",
-			"lang": "pl",
-			"location": "Poland,Wrocław",
-			"tags": "software craftsmanship, frogs"
+ 		{
+			"name" : "NDC Oslo",
+			"conferenceStart" : "2016-06-06",
+			"conferenceEnd" : "2016-06-10",
+			"callForPapersEnd" : "2016-02-15",
+			"url": "http://ndcoslo2016.oktaset.com/profile",
+			"lang": "en",
+			"location": "Oslo, Norway",
+			"tags": ""
  		},
-		{
-			"name" : "BoilingFrogs",
-			"conferenceStart" : "2016-01-16",
-			"conferenceEnd" : "2016-01-16",
-			"callForPapersEnd" : "2015-11-17",
-			"url": "http://boilingfrogs.pl/#c4p",
-			"lang": "pl",
-			"location": "Poland,Wrocław",
-			"tags": "software craftsmanship, frogs"
- 		},
-		{
-			"name" : "BoilingFrogs",
-			"conferenceStart" : "2016-01-16",
-			"conferenceEnd" : "2016-01-16",
-			"callForPapersEnd" : "2015-11-19",
-			"url": "http://boilingfrogs.pl/#c4p",
-			"lang": "pl",
-			"location": "Poland,Wrocław",
-			"tags": "software craftsmanship, frogs"
- 		},
-		{
-			"name" : "BoilingFrogs",
-			"conferenceStart" : "2016-01-16",
-			"conferenceEnd" : "2016-01-16",
-			"callForPapersEnd" : "2015-11-21",
-			"url": "http://boilingfrogs.pl/#c4p",
-			"lang": "pl",
-			"location": "Poland,Wrocław",
-			"tags": "software craftsmanship, frogs"
- 		}
+ 		
+		
 	] 
 }
