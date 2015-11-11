@@ -4,9 +4,7 @@ require(['jquery', 'bootstrap-table', 'libs/domReady!'], function ($) {
 	$('#table').bootstrapTable({
 		url: jsonUrl,
 		responseHandler: handler,
-		pagination: true,
 		search: true,
-		pageSize: 30,
 		rowStyle: rowFormatter,
 		sortName: 'callForPapersEnd',
 		sortOrder: 'asc',
@@ -49,7 +47,6 @@ require(['jquery', 'bootstrap-table', 'libs/domReady!'], function ($) {
 		var cfpEnd = new Date(row.callForPapersEnd);		
 		var timeDiff = Math.abs(now.getTime() - cfpEnd.getTime());
 		var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
-		//console.log(diffDays);
 		if (diffDays < 3) return { classes: 'warning' }; 
 		return {};
 	}
