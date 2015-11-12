@@ -1,5 +1,5 @@
 require(['jquery', 'bootstrap-table', 'libs/domReady!'], function ($) {
-	var jsonUrl = "./data/cfp.json";
+	var jsonUrl = "./data/cfp_generated.json";
 	
 	$('#table').bootstrapTable({
 		url: jsonUrl,
