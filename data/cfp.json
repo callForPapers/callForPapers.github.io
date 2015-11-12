@@ -1,0 +1,54 @@
+{
+	"events" : [
+		{
+			"name" : "Lambda Days",
+			"conferenceStart" : "2016-02-18",
+			"conferenceEnd" : "2016-02-19",
+			"callForPapersEnd" : "2015-12-01",
+			"url": "https://goo.gl/JXuIq0",
+			"lang": "en",
+			"location": "Poland, Kraków",
+			"tags": "functional programming, reactive programming"
+ 		},
+ 		{
+			"name" : "NDC Oslo",
+			"conferenceStart" : "2016-06-06",
+			"conferenceEnd" : "2016-06-10",
+			"callForPapersEnd" : "2016-02-15",
+			"url": "http://ndcoslo2016.oktaset.com/profile",
+			"lang": "en",
+			"location": "Oslo, Norway",
+			"tags": ""
+ 		},
+ 		{
+			"name" : "ACCU",
+			"conferenceStart" : "2016-04-19",
+			"conferenceEnd" : "2016-04-23",
+			"callForPapersEnd" : "2015-11-13",
+			"url": "http://accu.org/index.php/conferences/accu_conference_2016/accu2016_call_for_sessions",
+			"lang": "en",
+			"location": "Bristol, United Kingdom",
+			"tags": "programmin, testing, architecture and design, development process, analysis, patterns, project management"
+ 		},
+ 		{
+			"name" : "ScalarConf",
+			"conferenceStart" : "2016-04-16",
+			"conferenceEnd" : "2016-04-16",
+			"callForPapersEnd" : "2016-01-31",
+			"url": "https://docs.google.com/a/softwaremill.pl/forms/d/15oNhhdEDHq6iI_7l8t3oNsVA4RyozJRXZZRAEIF7mAc/viewform",
+			"lang": "en",
+			"location": "Warsaw, Poland",
+			"tags": "scala, functional programming, reactive programming"
+ 		},
+        {
+			"name" : "DevSum16",
+			"conferenceStart" : "2016-05-25",
+			"conferenceEnd" : "2016-05-27",
+			"callForPapersEnd" : "2015-12-18",
+			"url": "http://www.devsum.se/",
+			"lang": "en",
+			"location": "Stockholm, Sweden",
+			"tags": ""
+ 		}
+	] 
+}
