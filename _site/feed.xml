@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CFP help</title>
+    <description></description>
+    <link>http://cfp.help/</link>
+    <atom:link href="http://cfp.help/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 12 Nov 2015 22:11:01 +0100</pubDate>
+    <lastBuildDate>Thu, 12 Nov 2015 22:11:01 +0100</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+  </channel>
+</rss>

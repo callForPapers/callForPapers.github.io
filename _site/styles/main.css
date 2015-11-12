@@ -1,0 +1,12 @@
+.fixed-table-body {
+    overflow: auto;
+    height: auto;
+}
+
+.table th:nth-child(3) {
+	width: 120px;
+}
+
+.table th:nth-child(4) {
+	width: 120px;
+}
