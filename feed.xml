@@ -15,7 +15,7 @@ layout: null
       <item>
         <title>{{ cfp[1].name | xml_escape }}</title>
         <description>{{ cfp[1].name | xml_escape }}</description>
-        <pubDate>{{cfp.path }}</pubDate>
+        <pubDate>{{ cfp[0] | prepend: "/_data/conferences/"| append: ".json" | prepend: site.source | file_date | date_to_rfc822 }}</pubDate>
         <link>{{ cfp[1].url}}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
         {% for tag in cfp[1].tags | split:',' %}
