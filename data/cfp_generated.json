@@ -4,10 +4,9 @@ layout: null
 ---
 {
   "events" : [  
-
     {% for cfp in site.data.conferences %}
       {{cfp[1] | jsonify}}
-    {% if forloop.rindex0 > 0 %},{% endif %}
+      {% if forloop.rindex0 > 0 %},{% endif %}
     {% endfor %}
   ]
 }
