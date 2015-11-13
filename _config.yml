@@ -1,0 +1,14 @@
+# Site settings
+title: CFP help
+email: your-email@domain.com
+description: > # This site provide list of call for papers which speakers can easy use.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://cfp.help" # the base hostname & protocol for your site
+twitter_username: cfp_help
+github_username:  callForPapers
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jekyll-last-modified-at

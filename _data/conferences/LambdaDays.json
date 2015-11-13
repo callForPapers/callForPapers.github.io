@@ -1,0 +1,10 @@
+{
+	"name" : "Lambda Days",
+	"conferenceStart" : "2016-02-18",
+	"conferenceEnd" : "2016-02-19",
+	"callForPapersEnd" : "2015-12-01",
+	"url": "https://goo.gl/JXuIq0",
+	"lang": "en",
+	"location": "Poland, Kraków",
+	"tags": "functional programming, reactive programming"
+}
