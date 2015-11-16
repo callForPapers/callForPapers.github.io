@@ -35,7 +35,19 @@ require(['jquery', 'bootstrap-table', 'libs/domReady!'], function ($) {
 	});
 	
 	function handler(res) {
-		return res.events;
+		var dataToBind = [];
+		for (var i = 0; i< res.events.length; i++){
+			event = res.events[i];
+
+			var now = new Date();
+			var cfpEnd = new Date(event.callForPapersEnd);
+
+			if (cfpEnd >= now)
+			{
+				dataToBind.push(event);
+			}
+		}
+		return dataToBind;
 	}
 	
 	function linkFormatter(value, row) {
