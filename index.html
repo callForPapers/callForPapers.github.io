@@ -1,36 +1,71 @@
 <html>
-
 <head>
-	<script type="text/javascript" data-main="init" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.20/require.min.js"></script>
-	<link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
-	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.1/bootstrap-table.min.css" />
-	<link rel="stylesheet" href="styles/main.css" />
+	<title>CFP list</title>
+
+	<meta name="description" content="CFP list is wating for you" />
+	<meta name="keywords" content="call for papers, CFP, CfP, C4P, call for proposals, speakers" />
+
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://cfp.help" />
+	<meta property="og:title" content="Call for papers help" />
+	<meta property="og:description" content="On CallForPapers (cfp.help) website we aim to aggregate and display information about upcoming Call For Paper (CfPs) on technical conferences around the globe" />
+
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:site" content="@cfp_help" />
+	<meta name="twitter:creator" content="@cfp_help">
+	<meta name="twitter:title" content="Call for papers help" />
+	<meta name="twitter:description" content="On CallForPapers (cfp.help) website we aim to aggregate and display information about upcoming Call For Paper (CfPs) on technical conferences around the globe" />
+	<meta name="twitter:url" content="http://cfp.help/" />
+    
+    <script type="text/javascript" data-main="init" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.20/require.min.js"></script>
+    <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.1/bootstrap-table.min.css" />
+    <link rel="stylesheet" href="styles/main.css" />
 </head>
 
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12"><h1 class="text-center">CallForPapers!</h1></div>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<table id="table">
-					<thead>
-						<tr>
-							<th>Name</th>
-							<th>Location</th>
-							<th>Date</th>
-							<th>CFP end</th>
-							<th>CFP link</th>
-							<th>Language</th>
-							<th>Tags</th>
-						</tr>
-					</thead>
-				</table>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <header>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">CFP</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/">CFP list</a></li>
+                        <li><a href="addCfp.html">Add new CFP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-md-12"><h1 class="text-center">CallForPapers!</h1></div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Location</th>
+                            <th>Date</th>
+                            <th>CFP end</th>
+                            <th>CFP link</th>
+                            <th>Language</th>
+                            <th>Tags</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

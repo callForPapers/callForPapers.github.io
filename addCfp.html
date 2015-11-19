@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>How to add CFP</title>
+    <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">CFP</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/">CFP list</a></li>
+                        <li class="active"><a href="addCfp.html">Add new CFP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <h1>How to add new CFP</h1>
+        <div class="row">
+            <ol>
+                <li>Go to <a href="https://github.com/callForPapers/callForPapers.github.io">https://github.com/callForPapers/callForPapers.github.io</a></li>
+                <li>Fork the repository to your local machine</li>
+                <li>Open the `_data/conferences` directory</li>
+                <li>Add a new *.json file. Replace * with the name of the conference</li>
+                <li>
+                    Edit the following json to meet your needs:
+                    <pre><code>{
+  "name" : "ACCU",
+  "conferenceStart" : "2016-04-19",
+  "conferenceEnd" : "2016-04-23",
+  "callForPapersEnd" : "2015-11-13",
+  "url": "http://accu.org/index.php/conferences/accu_conference_2016/accu2016_call_for_sessions",
+  "lang": "en",
+  "location": "Bristol, United Kingdom",
+  "tags": "programmin, testing, architecture and design, development process, analysis, patterns, project management"
+}</code></pre>
+                </li>
+                <li>Save the file</li>
+                <li>Commit your changes</li>
+                <li>Push the changes to your repository</li>
+                <li>Create a pull request either through the GUI, GitHub directory or tool of your choice</li>
+                <li>Pat yourself on the back for a job well done</li>
+                <li>Congratulations - you are now and Open Source contributor</li>
+            </ol>
+            If any of this is unclear, give us a shout and we'll be more than happy to help you out.
+        </div>
+    </div>
+</body>
+
+</html>
