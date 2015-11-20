@@ -35,24 +35,31 @@ require(['jquery', 'bootstrap-table', 'libs/domReady!'], function ($) {
 	});
 	
 	function handler(res) {
-		var dataToBind = [];
-		for (var i = 0; i < res.events.length; i++){
-			var conference = res.events[i];
-
-			var now = new Date();
-			var cfpEnd = new Date(conference.callForPapersEnd);
-
-			if (cfpEnd >= now)
-			{
-				dataToBind.push(conference);
-			}
+		
+		var dataToBind = [], 
+			conference, 
+			i, 
+			cfpEnd,evts = res.events, 
+			length = evts.length, 
+			now = new Date();
+			
+		for(i = 0; i < length; i++) {
+		   conference = evts[i];
+		   cfpEnd = new Date(conference.callForPapersEnd);
+		
+		   if(cfpEnd >= now) {
+		       dataToBind.push(conference);
+		   }
+		
+		  cfpEnd = null;
 		}
+		
 		return dataToBind;
 	}
 	
 	function linkFormatter(value, row) {
-        return '<a href=' + value + ' target="_blank">CFP link</>';
-    }
+        	return '<a href=' + value + ' target="_blank">CFP link</>';
+    	}
 	
 	function rowFormatter(row, index) {
 		var now = new Date();
