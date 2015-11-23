@@ -36,15 +36,15 @@ require(['jquery', 'bootstrap-table', 'libs/domReady!'], function ($) {
 	
 	function handler(res) {
 		var dataToBind = [];
-		for (var i = 0; i< res.events.length; i++){
-			event = res.events[i];
+		for (var i = 0; i < res.events.length; i++){
+			var conference = res.events[i];
 
 			var now = new Date();
-			var cfpEnd = new Date(event.callForPapersEnd);
+			var cfpEnd = new Date(conference.callForPapersEnd);
 
 			if (cfpEnd >= now)
 			{
-				dataToBind.push(event);
+				dataToBind.push(conference);
 			}
 		}
 		return dataToBind;
