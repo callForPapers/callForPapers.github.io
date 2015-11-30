@@ -41,13 +41,14 @@ require(['jquery', 'bootstrap-table', 'libs/domReady!'], function ($) {
 			i, 
 			cfpEnd,evts = res.events, 
 			length = evts.length, 
-			now = new Date();
+			today = new Date();
+			today.setHours(23,59,59,999);
 			
 		for(i = 0; i < length; i++) {
 		   conference = evts[i];
 		   cfpEnd = new Date(conference.callForPapersEnd);
 		
-		   if(cfpEnd >= now) {
+		   if(cfpEnd >= today) {
 		       dataToBind.push(conference);
 		   }
 		
@@ -62,9 +63,10 @@ require(['jquery', 'bootstrap-table', 'libs/domReady!'], function ($) {
     	}
 	
 	function rowFormatter(row, index) {
-		var now = new Date();
+		var today = new Date();
+		today.setHours(23,59,59,999);
 		var cfpEnd = new Date(row.callForPapersEnd);		
-		var timeDiff = Math.abs(now.getTime() - cfpEnd.getTime());
+		var timeDiff = Math.abs(today.getTime() - cfpEnd.getTime());
 		var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
 		if (diffDays < 3) return { classes: 'warning' }; 
 		return {};
