@@ -1,0 +1,10 @@
+{
+	"name" : "DevSum 2016",
+	"conferenceStart" : "2016-05-26",
+	"conferenceEnd" : "2016-05-27",
+	"callForPapersEnd" : "2015-12-18",
+	"url": "www.devsum.se",
+	"lang": "en",
+	"location": "Swansea, UK",
+	"tags": "xamarin, .net, azure, cloud, javascript, open source, agile, node"
+}
