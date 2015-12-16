@@ -1,0 +1,10 @@
+{
+	"name" : "EuroStar 2016",
+	"conferenceStart" : "2016-10-31",
+	"conferenceEnd" : "2016-11-03",
+	"callForPapersEnd" : "2016-02-05",
+	"url" : "https://conference.eurostarsoftwaretesting.com/speakers/call-for-papers/",
+	"lang" : "en",
+	"location" : "Stockholm, Sweden",
+	"tags" : "testing, architecture, tdd, bdd"
+ }
