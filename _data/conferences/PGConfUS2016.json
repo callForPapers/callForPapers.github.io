@@ -1,0 +1,10 @@
+{
+	"name" : "PGConf US 2016",
+	"conferenceStart" : "2016-04-18",
+	"conferenceEnd" : "2016-04-20",
+	"callForPapersEnd" : "2016-01-31",
+	"url" : "http://www.pgconf.us/2016/submit/",
+	"lang" : "en",
+	"location" : "Amsterdam, Netherlands",
+	"tags" : "postgresql, nosql, database"
+ }
