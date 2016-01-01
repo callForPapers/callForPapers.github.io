@@ -1,7 +1,7 @@
 {
   "name": "RailsConf",
-  "conferenceStart": "2016-5-4",
-  "conferenceEnd": "2016-5-4",
+  "conferenceStart": "2016-05-04",
+  "conferenceEnd": "2016-05-04",
   "callForPapersEnd": "2016-01-15",
   "url": "http://rubycentral-cfp.herokuapp.com/events/railsconf2016",
   "lang": "en",
