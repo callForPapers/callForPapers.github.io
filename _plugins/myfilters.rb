@@ -18,6 +18,16 @@ module Jekyll
     def next(input)
     	Jekyll::LastModifiedAt::Determinator.new(input, input)
     end
+    class Generator < Jekyll::Generator
+
+      def generate(site)
+        %w(site.data.conferences).each do |type|
+          site.send(type).each do |item|
+            item.data['last_modified_at'] = Determinator.new(site.source, item.path)
+          end
+        end
+      end
+    end
   end
 end
 
