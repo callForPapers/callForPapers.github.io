@@ -1,1 +1,10 @@
-{"name":"Atlantic Security Conference","conferenceStart":"2016-4-7","conferenceEnd":"2016-4-7","callForPapersEnd":"2016-02-29","url":"http://atlseccon.com/speakers/call-for-papers/","lang":"en","location":"Halifax, Nova Scotia, Canada","tags":null}
+{
+  "name": "Atlantic Security Conference",
+  "conferenceStart": "2016-4-7",
+  "conferenceEnd": "2016-4-7",
+  "callForPapersEnd": "2016-02-29",
+  "url": "http://atlseccon.com/speakers/call-for-papers/",
+  "lang": "en",
+  "location": "Halifax, Nova Scotia, Canada",
+  "tags": "security"
+}

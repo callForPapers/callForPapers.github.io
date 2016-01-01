@@ -1,1 +1,10 @@
-{"name":"APIdays Melbourne 2016: Platforms for Innovation","conferenceStart":"2016-3-1","conferenceEnd":"2016-3-1","callForPapersEnd":"","url":"http://au.apidays.io/cfp.html","lang":"en","location":"Melbourne, AU","tags":null}
+{
+  "name": "APIdays Melbourne 2016: Platforms for Innovation",
+  "conferenceStart": "2016-3-1",
+  "conferenceEnd": "2016-3-1",
+  "callForPapersEnd": "",
+  "url": "http://au.apidays.io/cfp.html",
+  "lang": "en",
+  "location": "Melbourne, AU",
+  "tags": "API, IoT, PaaS, Mobile, Hypermedia"
+}

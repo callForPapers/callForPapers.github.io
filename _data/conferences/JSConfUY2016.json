@@ -1,1 +1,10 @@
-{"name":"JSConf UY","conferenceStart":"2016-4-15","conferenceEnd":"2016-4-15","callForPapersEnd":"2015-12-21","url":"https://jsconf.uy/talks","lang":"en","location":"Montevideo, Uraguay","tags":null}
+{
+  "name": "JSConf UY",
+  "conferenceStart": "2016-4-15",
+  "conferenceEnd": "2016-4-15",
+  "callForPapersEnd": "2015-12-21",
+  "url": "https://jsconf.uy/talks",
+  "lang": "en",
+  "location": "Montevideo, Uraguay",
+  "tags": "JavaScript, web"
+}

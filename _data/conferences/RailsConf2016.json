@@ -1,1 +1,10 @@
-{"name":"RailsConf","conferenceStart":"2016-5-4","conferenceEnd":"2016-5-4","callForPapersEnd":"2016-01-15","url":"http://rubycentral-cfp.herokuapp.com/events/railsconf2016","lang":"en","location":"Kansas City, MO","tags":null}
+{
+  "name": "RailsConf",
+  "conferenceStart": "2016-5-4",
+  "conferenceEnd": "2016-5-4",
+  "callForPapersEnd": "2016-01-15",
+  "url": "http://rubycentral-cfp.herokuapp.com/events/railsconf2016",
+  "lang": "en",
+  "location": "Kansas City, MO",
+  "tags": "rails"
+}
