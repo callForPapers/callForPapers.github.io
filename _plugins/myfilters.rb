@@ -1,4 +1,5 @@
 require 'jekyll-last-modified-at'
+require 'liquid'
 
 module Jekyll
   module MyFilters
