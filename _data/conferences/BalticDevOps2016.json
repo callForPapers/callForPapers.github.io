@@ -1,1 +1,10 @@
-{"name":"Baltic DevOps 2016","conferenceStart":"2016-5-10","conferenceEnd":"2016-5-10","callForPapersEnd":"","url":"http://topconf.com/baltic-devOps-2016/page/call-for-paper-baltic/","lang":"en","location":"Tallinn, Estonia","tags":null}
+{
+  "name": "Baltic DevOps 2016",
+  "conferenceStart": "2016-05-10",
+  "conferenceEnd": "2016-05-10",
+  "callForPapersEnd": "",
+  "url": "http://topconf.com/baltic-devOps-2016/page/call-for-paper-baltic/",
+  "lang": "en",
+  "location": "Tallinn, Estonia",
+  "tags": "devops"
+}

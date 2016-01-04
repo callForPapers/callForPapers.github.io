@@ -1,1 +1,10 @@
-{"name":"Devoxx UK","conferenceStart":"2016-6-8","conferenceEnd":"2016-6-8","callForPapersEnd":"2016-01-22","url":"http://cfp.devoxx.co.uk/","lang":"en","location":"London, UK","tags":null}
+{
+  "name": "Devoxx UK",
+  "conferenceStart": "2016-06-08",
+  "conferenceEnd": "2016-06-08",
+  "callForPapersEnd": "2016-01-22",
+  "url": "http://cfp.devoxx.co.uk/",
+  "lang": "en",
+  "location": "London, UK",
+  "tags": "java, jvm, HTML5, bigdata"
+}

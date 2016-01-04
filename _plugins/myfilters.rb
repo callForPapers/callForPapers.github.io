@@ -2,21 +2,16 @@ require 'jekyll-last-modified-at'
 
 module Jekyll
   module MyFilters
-    def file_date(input)
-       last_commit_date = Jekyll::LastModifiedAt::Executor.sh(
-            'git',
-            'log',
-            '-1',
-            '--format="%ct"',
-            '--',
-            input
-          )[/\d+/]
-          # last_commit_date can be nil iff the file was not committed.
-        (last_commit_date.nil? || last_commit_date.empty?) ? File::mtime(input) : last_commit_date
-    end
-
-    def next(input)
-    	Jekyll::LastModifiedAt::Determinator.new(input, input)
+    class Generator < Jekyll::Generator
+      def generate(site)
+        cfps = site.data['conferences'].map do |key,data|
+          path = "/_data/conferences/#{key}.json"
+          last_modified_at = Jekyll::LastModifiedAt::Determinator.new(site.source, path)
+          data['last_modified_at'] = last_modified_at.last_modified_at_time
+          data
+        end
+        site.data['cfps'] = cfps.sort_by!{|x| x['last_modified_at']}
+      end
     end
   end
 end

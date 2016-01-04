@@ -1,1 +1,10 @@
-{"name":"OpenData4LocalSearch","conferenceStart":"2016-4-11","conferenceEnd":"2016-4-11","callForPapersEnd":"2015-12-29","url":"http://od4ls.uqam.ca/","lang":"en","location":"Montréal, QC, Canada","tags":null}
+{
+  "name": "OpenData4LocalSearch",
+  "conferenceStart": "2016-04-11",
+  "conferenceEnd": "2016-04-11",
+  "callForPapersEnd": "2015-12-29",
+  "url": "http://od4ls.uqam.ca/",
+  "lang": "en",
+  "location": "Montréal, QC, Canada",
+  "tags": "OD4LS, open data"
+}

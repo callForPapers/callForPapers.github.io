@@ -1,1 +1,10 @@
-{"name":"enterJS 2016","conferenceStart":"2016-6-14","conferenceEnd":"2016-6-14","callForPapersEnd":"2016-01-18","url":"https://www.enterjs.de/call-for-proposals-en.html","lang":"en","location":"Darmstadt, Germany","tags":null}
+{
+  "name": "enterJS 2016",
+  "conferenceStart": "2016-06-14",
+  "conferenceEnd": "2016-06-14",
+  "callForPapersEnd": "2016-01-18",
+  "url": "https://www.enterjs.de/call-for-proposals-en.html",
+  "lang": "en",
+  "location": "Darmstadt, Germany",
+  "tags": "UI, UX, security, architecture, performance"
+}

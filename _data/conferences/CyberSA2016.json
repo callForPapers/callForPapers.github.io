@@ -1,1 +1,10 @@
-{"name":"Cyber SA 2016","conferenceStart":"2016-6-13","conferenceEnd":"2016-6-13","callForPapersEnd":"2016-02-26","url":"http://c-mric.org/csa2016","lang":"en","location":"London, UK","tags":null}
+{
+  "name": "Cyber SA 2016",
+  "conferenceStart": "2016-06-13",
+  "conferenceEnd": "2016-06-13",
+  "callForPapersEnd": "2016-02-26",
+  "url": "http://c-mric.org/csa2016",
+  "lang": "en",
+  "location": "London, UK",
+  "tags": "social media analytics, government, risk management, fuzzy logic"
+}

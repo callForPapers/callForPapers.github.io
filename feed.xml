@@ -11,14 +11,14 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for cfp in site.data.conferences %}
-      <item>
-        <title>{{ cfp[1].name | xml_escape }}</title>
-        <description>{{ cfp[1].name | xml_escape }}</description>
-        <pubDate>{{ cfp[0] | prepend: "/_data/conferences/"| append: ".json" | prepend: site.source | file_date | date_to_rfc822 }}</pubDate>
-        <link>{{ cfp[1].url}}</link>
+    {% for cfp in site.data.cfps %}
+    <item>
+        <title>{{ cfp.name | xml_escape }}</title>
+        <description>{{ cfp.name | xml_escape }}</description>
+        <pubDate>{{ cfp.last_modified_at | date_to_rfc822 }}</pubDate>
+        <link>{{ cfp.url | xml_escape}}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in cfp[1].tags | split:',' %}
+        {% for tag in cfp.tags | split:',' %}
         <category>{{ tag | xml_escape }}</category>
         {% endfor %}
       </item>
