@@ -1,3 +1,7 @@
+h1 img {
+    height: 90px;
+}
+
 .fixed-table-body {
     overflow: auto;
     height: auto;
