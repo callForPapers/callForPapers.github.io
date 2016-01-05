@@ -11,7 +11,10 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
+    <temp>{{site.data.cfps}}</temp>
+    <temp2>{{site.data.conferences}}</temp2>
     {% for cfp in site.data.cfps %}
+    
     <item>
         <title>{{ cfp.name | xml_escape }}</title>
         <description>{{ cfp.name | xml_escape }}</description>
