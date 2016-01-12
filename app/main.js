@@ -31,7 +31,12 @@ require(['jquery', 'bootstrap-table', 'libs/domReady!'], function ($) {
 		}, {
 			field: 'tags',
 			title: 'Tags'
-		}]
+		},{
+			field: 'name',
+			title: 'Share',
+			formatter: socialMediaFormatter
+		}
+		]
 	});
 	
 	function handler(res) {
@@ -57,11 +62,19 @@ require(['jquery', 'bootstrap-table', 'libs/domReady!'], function ($) {
 		
 		return dataToBind;
 	}
-	
+	function socialMediaFormatter(value, cfp) {
+		var twitterButton = '<a class="twitter-share-button" '+
+			'href="https://twitter.com/share" data-size="large" data-url="'+cfp.url+'" '+
+			'data-related="cfp_help" '+
+			'data-hashtags="'+cfp.tags+'" '+
+			'data-text="#CFP for '+cfp.name+' is open">'+
+			'Tweet</a>'+
+			"<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>";
+		return twitterButton;
+	}
 	function linkFormatter(value, row) {
-        	return '<a href=' + value + ' target="_blank">CFP link</>';
-    	}
-	
+		return '<a href=' + value + ' target="_blank">CFP link</>';
+	}
 	function rowFormatter(row, index) {
 		var now = new Date();
 		var cfpEnd = new Date(row.callForPapersEnd);
