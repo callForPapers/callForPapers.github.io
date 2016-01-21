@@ -2,9 +2,10 @@
 	"name" : "4developers 2016",
 	"conferenceStart" : "2016-04-11",
 	"conferenceEnd" : "2016-04-11",
-	"callForPapersEnd" : "2015-02-22",
+	"callForPapersEnd" : "2016-02-22",
 	"url": "http://2016.4developers.org.pl/pl/cfp/form/",
 	"lang": "en, pl",
 	"location": "Warsaw, Poland",
 	"tags": "#java, #dotnet, #javascript, #mobile, #web, #mobile"
 }
+
