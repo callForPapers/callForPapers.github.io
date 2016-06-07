@@ -1,0 +1,10 @@
+{
+  "name" : "ScalaIO",
+  "conferenceStart" : "2016-10-27",
+  "conferenceEnd" : "2016-10-28",
+  "callForPapersEnd" : "2016-09-05",
+  "url": "http://cfp.scala.io",
+  "lang": "en,fr",
+  "location": "Lyon, France",
+  "tags": "Functional programming, Scala, Big data, Property based testing,Scala libraries, architecture and design"
+}
