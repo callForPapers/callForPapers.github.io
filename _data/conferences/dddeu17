@@ -1,0 +1,10 @@
+{
+  "name" : "Domain-Driven Design Europe 2017",
+  "conferenceStart" : "2017-01-31",
+  "conferenceEnd" : "2017-02-03",
+  "callForPapersEnd" : "2016-08-31",
+  "url": "https://dddeurope.com/2017/cfp/",
+  "lang": "en",
+  "location": "Amsterdam, The Netherlands",
+  "tags": "domain-driven design, ddd, dddesign, software, software design, modelling, event sourcing, cqrs"
+}
